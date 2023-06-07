@@ -1,0 +1,126 @@
+/* Custom styles for Admin Dashboard */
+
+
+/* Navbar */
+
+.navbar {
+    background-color: navy;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: white;
+}
+
+
+/* Sidebar */
+
+#sidebar {
+    background-color: navy;
+    color: white;
+}
+
+#sidebar .nav-link {
+    color: white;
+}
+
+#sidebar .nav-link:hover {
+    background-color: #001f3f;
+}
+
+#sidebar .nav-link.active {
+    background-color: #001f3f;
+}
+
+
+/* Main Content */
+
+#content {
+    background-color: #f2f2f2;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+
+/* Cards */
+
+.card {
+    border-color: navy;
+}
+
+.card-header {
+    background-color: navy;
+    color: white;
+    border-color: navy;
+}
+
+.card-footer {
+    background-color: navy;
+    color: white;
+    border-color: navy;
+}
+
+
+/* Tables */
+
+.table {
+    color: navy;
+}
+
+.table thead th {
+    background-color: navy;
+    color: white;
+    border-color: navy;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 128, 0.075);
+}
+
+
+/* Buttons */
+
+.btn-primary {
+    background-color: navy;
+    border-color: navy;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    border-color: navy;
+    color: navy;
+}
+
+
+/* Alerts */
+
+.alert {
+    color: white;
+}
+
+.alert-primary {
+    background-color: navy;
+    border-color: navy;
+}
+
+.alert-primary .alert-link {
+    color: white;
+}
+
+
+/* Customize other Bootstrap components as needed */
+
+
+/* Additional Custom Styles */
+
+
+/* Example: Change background color of body */
+
+body {
+    background-color: #f2f2f2;
+}
